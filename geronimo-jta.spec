@@ -2,7 +2,7 @@
 
 Name:		geronimo-jta
 Version:	1.1.1
-Release:	16%{?dist}
+Release:	17%{?dist}
 Summary:	J2EE JTA v1.1 API
 
 Group:		Development/Libraries
@@ -56,6 +56,9 @@ BuildArch:	noarch
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.1-17
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.1.1-16
 - Remove workaround for rpm bug #646523
 
